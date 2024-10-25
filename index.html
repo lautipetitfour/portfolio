@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio</title>
+</head>
+
+<header>
+    <h1>PORTFOLIO</h1>
+</header>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#mis-proyectos">Mis proyectos</a></li>
+            <li><a href="#contactame">Contáctame</a></li>
+        </ul>
+    </nav>
+
+    <hr class="separador">
+
+        <section id="sobre-mi" class="contenido_sub">
+            <div class="about-me">
+                <img width="200px" alt="foto" src="https://lh3.googleusercontent.com/a/ACg8ocKVt3Ru4r8lWxm4t98GiDc1QV-pVp5yPbyvSvXB-4uU32noPw=s360-c-no"/>
+                <div class="texto">
+                    <h2>Sobre mí</h2>
+                    <p>
+                        ¡Hola! Soy Lautaro Petitfour, un desarrollador web y programador de Mendoza, Argentina. Me he dedicado a aprender y mejorar mis habilidades en diversas tecnologías y lenguajes de programación.
+                    </p>
+                    <p>
+                        Cuento con conocimientos en:
+                    </p>
+                    <ul>
+                        <li>HTML, CSS, y JavaScript.</li>
+                        <li>SQL.</li>
+                        <li>Python.</li>
+                        <li>C++.</li>
+                        <li>C#</li>
+                    </ul>
+                    <p>
+                        Me gusta aprender nuevas tecnologías y aplicar mis conocimientos en nuevos proyectos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="separador">
+
+        <section id="mis-proyectos" class="proyectos">
+            <h2>Mis Proyectos</h2>
+
+            <div class="proyecto-contenedor">
+                <div class="proyecto-titulo" onclick="toggleProyecto(this)">
+                    <h3>Pizza YA</h3>
+                </div>
+                <div class="proyecto-contenido">
+                    <a href="https://github.com/humberperez/Pizza-YA">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjPptroipbqYdqqTqBgxZsz23lx22q6PUgkAytcw_uzGq5hdRmOsnsvv5FMDa7pNdyLWmBA4YMk23B2-nwhNAVafRu8NS3WjCxoirwhgQ9EWScxMAvg_KHW707vMpwLOx8rej3aN6FarTsw8u6Qpbb4NbKhsqEqBY07p24LEeN1w_Dnt7hvT4F2jrSfHse-" alt="Pizza YA" class="proyecto-img">
+                    </a>
+                    <p>Una aplicación de pedidos de pizza que permite a los usuarios realizar sus pedidos de manera fácil y rápida.</p>
+                </div>
+            </div>
+
+            <hr class="separador">
+
+            <div class="proyecto-contenedor">
+                <div class="proyecto-titulo" onclick="toggleProyecto(this)">
+                    <h3>Dengue</h3>
+                </div>
+                <div class="proyecto-contenido">
+                    <a href="https://github.com/humberperez/Dengue">
+                        <img src="https://i.pinimg.com/564x/83/b8/6b/83b86b680f951fbf2f7994d1e91ebb5a.jpg" alt="Dengue" class="proyecto-img">
+                    </a>
+                    <p>Una aplicación para llevar un listado de pacientes y sus síntomas, con login para administradores.</p>
+                </div>
+            </div>
+
+            <hr class="separador">
+
+            <div class="proyecto-contenedor">
+                <div class="proyecto-titulo" onclick="toggleProyecto(this)">
+                    <h3>Tateti en C++</h3>
+                </div>
+                <div class="proyecto-contenido">
+                    <a href="https://github.com/lautipetitfour/Programacion/tree/master/Parcial%202%20-%20Petitfour%20Lautaro%20Gaston%20Hidalgo">
+                        <img src="https://i.pinimg.com/564x/cd/de/a3/cddea39b17378d5fc6eae06d00c6738d.jpg" alt="Tateti" class="proyecto-img">
+                    </a>
+                    <p>Un clásico "tic-tac-toe" crudo pero funcional y sobre todo ¡Divertido!</p>
+                </div>
+            </div>
+            <hr class="separador">
+            <div class="proyecto-contenedor">
+                <div class="proyecto-titulo" onclick="toggleProyecto(this)">
+                    <h3>Carrito de Compras</h3>
+                </div>
+                <div class="proyecto-contenido">
+                    <a href="https://github.com/lautipetitfour/Laboratorio-II/tree/main/Carrito%20de%20compras">
+                        <img src="https://i.pinimg.com/564x/4f/74/89/4f7489062aa5c4c112943f402d29373c.jpg" alt="CarritoCompras" class="proyecto-img">
+                    </a>
+                    <p>Carrito de Compras en C#</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contactame" class="contacto">
+            <h2>Contáctame</h2>
+            <div class="contactoimg">
+                <a href="https://www.instagram.com/lautii_petitfour/">
+                    <img src="https://i.pinimg.com/enabled/236x/43/85/a5/4385a5479214954fa9fab6f1a778623f.jpg" alt="instagram">
+                </a>
+            </div>
+            <div class="contactoimg">
+                <a href="https://wa.me/2616576956">
+                    <img src="https://i.pinimg.com/enabled/236x/bf/8a/76/bf8a76719f900b8757154eb3cfbc844a.jpg" alt="whatsapp">
+                </a>
+            </div>
+            <div class="contactoimg">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=petitfourlautaro@gmail.com">
+                    <img src="https://i.pinimg.com/enabled/236x/88/e1/4c/88e14cc7e7fcbb0e0e09de26cec86c61.jpg" alt="gmail">
+                </a>
+            </div>
+            <div class="contactoimg">
+                <a href="https://github.com/lautipetitfour">
+                    <img src="https://i.pinimg.com/236x/64/88/0b/64880b9b0fe5b53bbe3f7280d262b33f.jpg" alt="github">
+                </a>
+            </div>
+        </section>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

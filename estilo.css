@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 70px 20px 20px; 
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #003163, #00162d,#000a15 ,#00050e, #000000); /* Degradado suave de negro a azul oscuro */
+    color: white;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    color: white;
+
+}
+
+/* Para la sección de "Sobre mí" */
+.contenido_sub {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 50px;
+    background-color:rgba(0, 0, 0, 0.365);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    color: white;
+}
+
+/* Estilos para la imagen */
+.about-me img {
+    margin-right: 20px;
+    margin-left: -20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px; 
+    color: white;
+}
+
+
+/* texto de contactos*/
+.contacto {
+    text-align: center; 
+    margin-top: 50px; 
+    color: white;
+}
+
+/* imágenes de contacto */
+
+.contactoimg {
+    display: inline-block;
+    margin: 10px;
+}
+
+.contactoimg img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactoimg img:hover {
+    transform: scale(1.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.proyectos {
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto; 
+    text-align: center;
+    color: white;
+}
+.proyecto-contenedor {
+    align-items: center;
+    margin-top: 20px; /* Espacio entre proyectos */
+}
+
+.proyecto-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Asegura que la imagen mantenga la proporción */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.proyecto-img:hover {
+    transform: scale(1.25);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.proyecto-texto h3 {
+    font-size: 20px; /* Ajusta el tamaño del título */
+    color: white; /* Asegura que el texto sea legible */
+}
+.proyectos p {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #333; 
+    text-align: center;
+    color: white; 
+}
+.proyectotitulo {
+    text-align: center; 
+    margin-top: 50px;
+    color: white;
+}
+
+
+/* estilos para el separador */
+hr.separador {
+    border: none; 
+    border-top: 2px solid white; 
+    margin: 50px; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+/*estilos para barra de navegacion */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
